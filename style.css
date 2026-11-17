@@ -1,6 +1,6 @@
 *{box-sizing:border-box}body{margin:0;font-family:"Trebuchet MS",system-ui,sans-serif;background:#fff8e7;color:#222}
 header{background:linear-gradient(135deg,#ff6b35,#f7c548);color:#fff;padding:18px;text-align:center}header h1{margin:0;font-size:1.8em}.tag{margin:4px 0 0}
-nav{display:flex;overflow-x:auto;background:#2d3047;position:sticky;top:0}nav button{flex:1;padding:12px 8px;background:none;border:0;color:#fff;font-size:.95em;white-space:nowrap;cursor:pointer}nav button.on{background:#ff6b35}
+nav{display:none;overflow-x:auto;background:#2d3047;position:sticky;top:0}nav.ready{display:flex}nav button{flex:1;padding:12px 8px;background:none;border:0;color:#fff;font-size:.95em;white-space:nowrap;cursor:pointer}nav button.on{background:#ff6b35}
 main{max-width:760px;margin:auto;padding:14px}.card{background:#fff;border-radius:16px;padding:14px;margin:12px 0;box-shadow:0 3px 0 #f0d9a8}
 .btn{background:#1b998b;color:#fff;border:0;border-radius:999px;padding:10px 18px;font-size:1em;cursor:pointer;margin:4px}.btn.alt{background:#ff6b35}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.chip{border:2px solid #1b998b;border-radius:999px;padding:8px 12px;background:#fff;cursor:pointer}.chip.on{background:#1b998b;color:#fff}
